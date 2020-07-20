@@ -1,0 +1,41 @@
+
+body{
+    background-image: url("pic.jpg");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+p{
+  background-color: lightblue;
+  height: 180pt;
+  width: 400pt;
+  margin-left: 35%;
+  margin-top: 20px;
+  font-style: unset;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+}
+button{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  font-size: 20px;
+  background-color:lightblue;
+}
+font{
+  margin-top: 20%;
+  font-size: 26px;
+}
+body {
+  display: block;
+}
+font{
+  text-align: center;
+}
+center{
+  font-size: 26px;
+  color:darkblue;
+}
+b{
+  color:darkblue;
+}

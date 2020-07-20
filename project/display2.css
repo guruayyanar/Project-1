@@ -1,0 +1,59 @@
+
+body{
+    background-image: url("pic.jpg");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+pre{
+  background-color:lightblue;
+  height: 140pt;
+  width: 400pt;
+  margin-left: 35%;
+  margin-top: 20px;
+  font-style: unset;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+  padding: 0px;
+}
+button{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  font-size: 20px;
+  background-color:pink;
+}
+font{
+  margin-top: 20%;
+  font-size: 26px;
+}
+body {
+  display: block;
+}
+center{
+  font-size: 26px;
+  color:white;
+}
+b{
+  color:darkblue;
+}
+.icon1{
+  background-image: url("g1.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding: 0px;
+  color:black;
+}
+.icon2{
+  background-image: url("s1.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 26px;
+  color:black;
+}
+.icon3{
+  background-image: url("go.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  color:black;
+}

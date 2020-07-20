@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("pic.jpg");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1{
+	margin-top: 60pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35pt;
+}
+h3{
+	margin-top: 10pt;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 28pt;
+}
+.form{
+    text-align: center;
+	margin-top: 5%;
+	padding-top: 2%;
+	margin-left: 36%;
+	margin-right: 36%;
+	padding-bottom: 3%;
+	background-color: aqua;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-input1{
+    margin: 15px;
+	font-size:19px;
+	padding:6px 12px;
+	width: 210px;
+	background : url("3.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position-x: 5px;
+	background-position-y: 5px ;
+	text-align: center;
+}
+.form-input2{
+    margin: 15px;
+	font-size:19px;
+	padding:6px 12px;
+	width: 210px;
+	background : url("2.svg");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position-x: 5px;
+	background-position-y: 5px ;
+	text-align: center;
+}
+
+.myButton {
+	background-color:#D23F8D;
+	border:1px solid #D23F8D;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:6px 12px;
+    text-decoration:none;
+    width: 250px;
+}

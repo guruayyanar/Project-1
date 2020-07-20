@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Winners List</title>
+</head>
+<body>
+    <form action="" method="POST" id="winnerlist">
+        <h1>Winners List</h1>
+        <div class="alert">Message Sent</div>
+        <fieldset>
+            <!-- Section 1 -->
+            <!--<legend><span class="section">1</span>Posted By</legend>-->
+            <label class="" for="sname">Sport Name:</label>
+            <input type="text" name="spname" value="" id="spname" required />
+            <label>Type of Sports:</label>
+            <select name="tos" id="tos" required>
+                <option value="Indoor">Indoor</option>
+                <option value="Outdoor">Outdoor</option>
+            </select>
+            
+            <label class="" for="fplace">First Place:</label>
+            <input type="text" name="fname" value="" id="fname" required />
+            <label class="" for="splace">Second Place:</label>
+            <input type="text" name="sname" value="" id="sname" required />
+            <label class="" for="tplace">Third Place:</label>
+            <input type="text" name="tname" value="" id="tname" required />
+        </fieldset>
+        <button type="submit" sendMessage()>Register</button>
+
+      
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
+  <script src="app2.js"></script>
+</body>
+</html>
